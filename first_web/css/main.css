@@ -3,11 +3,12 @@
 }
 
 .main .main_logo {
+  display: flex;
+  justify-content: center;
   position: relative;
   font-size: 50px;
   font-weight: 700;
   width: 100%;
-  left: 36%;
 }
 
 .main_logo .main_logo__text {

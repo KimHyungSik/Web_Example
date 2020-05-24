@@ -20,7 +20,17 @@
   margin: 0px 10px;
   padding: 50px 250px 50px 18px;
   box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.nav .nav_fir{
   animation: inText 1s forwards;
+}
+.nav .nav_scon{
+  animation: inText 1.5s forwards;
+}
+.nav .nav_thr{
+  animation: inText 2s forwards;
 }
 
 .category .category_num {
