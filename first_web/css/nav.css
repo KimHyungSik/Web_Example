@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5%;
+}
+@keyframes inText {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav .category {
+  background-color: white;
+  margin: 0px 10px;
+  padding: 50px 250px 50px 18px;
+  box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+  animation: inText 1s forwards;
+}
+
+.category .category_num {
+  color: #38abd8f5;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav a:hover {
+  transform: scale(1.1);
+}
+.nav a:active {
+  transform: scale(0.9);
+}

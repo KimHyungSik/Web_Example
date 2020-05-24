@@ -1,0 +1,14 @@
+@import "header.css";
+@import "main.css";
+@import "nav.css";
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;700&display=swap");
+
+body {
+  background-color: #f4f4f4d2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

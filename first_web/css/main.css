@@ -1,0 +1,22 @@
+.main {
+  padding: 5%;
+}
+
+.main .main_logo {
+  position: relative;
+  font-size: 50px;
+  font-weight: 700;
+  width: 100%;
+  left: 36%;
+}
+
+.main_logo .main_logo__text {
+  color: #38abd8f5;
+  display: inline;
+}
+
+.main_logo .main_logo__spaces {
+  display: inline;
+  margin-left: 30px;
+  animation: inText 1s forwards;
+}

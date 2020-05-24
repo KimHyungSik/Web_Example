@@ -1,0 +1,41 @@
+.header_menu {
+  display: flex;
+  font-size: 25px;
+  padding: 40px 15px;
+}
+
+.header_menu .menu__left {
+  padding: 5px;
+  flex: 2;
+}
+
+.header_menu .menu__right {
+}
+
+@keyframes inText {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.menu__right .menu__item {
+  display: inline;
+  padding-right: 40px;
+  flex: 1;
+  animation: inText 1s forwards;
+}
+
+.menu__item .menu_a:active {
+  transform: scale(0.9);
+}
+
+.menu__item .menu__icon {
+  background-color: white;
+  padding: 15px;
+  border-radius: 70%;
+  box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.05);
+}
