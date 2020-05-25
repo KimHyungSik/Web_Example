@@ -23,13 +23,13 @@
   border-radius: 10px;
 }
 
-.nav .nav_fir{
+.nav .nav_fir {
   animation: inText 1s forwards;
 }
-.nav .nav_scon{
+.nav .nav_scon {
   animation: inText 1.5s forwards;
 }
-.nav .nav_thr{
+.nav .nav_thr {
   animation: inText 2s forwards;
 }
 

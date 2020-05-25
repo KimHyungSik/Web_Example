@@ -1,5 +1,6 @@
 .main {
   padding: 5%;
+  padding-top: 2%;
 }
 
 .main .main_logo {
@@ -20,4 +21,43 @@
   display: inline;
   margin-left: 30px;
   animation: inText 1s forwards;
+}
+
+.main .main_clock {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #38abd8f5;
+}
+
+@keyframes backDog {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes moveDog {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: translateX(-200px);
+  }
+}
+
+.baImge {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  z-index: -1;
+  animation: backDog 1s forwards;
+}
+
+.moveDogani {
+  animation: moveDog 4s 1s infinite linear alternate;
 }
