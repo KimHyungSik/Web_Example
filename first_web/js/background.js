@@ -8,17 +8,18 @@ function paintlogo() {
     return;
   }
   const logoT = document.createElement('div');
-  logoT.classList.add('main_logo__text');
+  if (text[count] === ' ') {
+    logoT.classList.add('main_logo__spaces');
+  } else {
+    logoT.classList.add('main_logo__text');
+  }
   logoT.innerText = text[count];
   test.appendChild(logoT);
   count++;
 }
 
 function init() {
-  setInterval(paintlogo, 300);
-  setTimeout(function () {
-    Img.classList.add('moveDogani');
-  }, 2000);
+  setInterval(paintlogo, 200);
 }
 
 init();
