@@ -1,0 +1,45 @@
+.slide_warp {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.slide_box {
+  height: 100px;
+  width: 100px;
+  overflow-x: hidden;
+}
+
+.slide_list {
+  display: flex;
+}
+
+.slide_content {
+  height: 100px;
+  min-width: 100px;
+  float: left;
+  flex-grow: 1;
+}
+
+.slide_0 {
+  background-color: green;
+}
+.slide_1 {
+  background-color: yellow;
+}
+.slide_2 {
+  background-color: purple;
+}
+.slide_3 {
+  background-color: skyblue;
+}
+.slide_4 {
+  background-color: orange;
+}
+
+.next-btn {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}

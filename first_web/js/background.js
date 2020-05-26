@@ -1,14 +1,21 @@
-const body = document.querySelector('body');
-const Img = document.createElement('img');
+const test = document.querySelector('.main_logo');
+const text = ['있', '어', '보', '이', '는', ' ', '웹', '이', '름'];
+let countmax = text.length,
+  count = 0;
 
-function background() {
-  Img.classList.add('baImge');
-  Img.src = '../img/dog.jpg';
-  body.appendChild(Img);
+function paintlogo() {
+  if (countmax == count) {
+    return;
+  }
+  const logoT = document.createElement('div');
+  logoT.classList.add('main_logo__text');
+  logoT.innerText = text[count];
+  test.appendChild(logoT);
+  count++;
 }
 
 function init() {
-  background();
+  setInterval(paintlogo, 300);
   setTimeout(function () {
     Img.classList.add('moveDogani');
   }, 2000);
