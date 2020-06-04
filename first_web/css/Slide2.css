@@ -1,0 +1,32 @@
+.slide_limit {
+  margin: 35px;
+}
+
+.slide_limit__ul {
+  list-style: none;
+  display: flex;
+}
+
+.slide_limit__column {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.slide_limit__ul {
+  margin: 0px;
+  padding: 0px;
+  transition: 90ms;
+}
+
+.Slide_limit__btn {
+  height: 20px;
+  width: 100px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide_limit__btn_item {
+  display: block;
+}

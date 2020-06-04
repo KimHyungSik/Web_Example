@@ -1,14 +1,15 @@
 .slide_warp {
-  margin-top: 20%;
   display: flex;
-  justify-content: center;
+  margin: 35px;
+  flex-direction: column;
+  justify-content: start;
   align-content: center;
 }
 
 .slide_box {
   height: 100px;
   width: 100px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .slide_list {
@@ -20,6 +21,9 @@
   min-width: 100px;
   float: left;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .slide_0 {
@@ -38,8 +42,10 @@
   background-color: orange;
 }
 
-.next-btn {
+.slide_btn {
   display: flex;
-  padding: 10px;
-  justify-content: center;
+}
+
+.next-btn {
+  padding: 10px 25px;
 }
